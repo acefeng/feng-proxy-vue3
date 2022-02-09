@@ -10,15 +10,7 @@ yarn install
 yarn serve
 ```
 
-### Compiles and minifies for production
+### 启动electron
 ```
-yarn build
+yarn electron:serve
 ```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).

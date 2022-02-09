@@ -1499,7 +1499,7 @@
   dependencies:
     "@types/node" "*"
 
-"@types/json-schema@^7.0.4", "@types/json-schema@^7.0.5", "@types/json-schema@^7.0.7":
+"@types/json-schema@^7.0.4", "@types/json-schema@^7.0.5", "@types/json-schema@^7.0.7", "@types/json-schema@^7.0.8":
   version "7.0.9"
   resolved "https://npm.corp.kuaishou.com/@types%2fjson-schema/-/json-schema-7.0.9.tgz#97edc9037ea0c38585320b28964dde3b39e4660d"
   integrity sha1-l+3JA36gw4WFMgsolk3eOznkZg0=
@@ -2340,7 +2340,7 @@ ajv-keywords@^3.1.0, ajv-keywords@^3.4.1, ajv-keywords@^3.5.2:
   resolved "https://npm.corp.kuaishou.com/ajv-keywords/-/ajv-keywords-3.5.2.tgz#31f29da5ab6e00d1c2d329acf7b5929614d5014d"
   integrity sha1-MfKdpatuANHC0yms97WSlhTVAU0=
 
-ajv@^6.1.0, ajv@^6.10.0, ajv@^6.10.2, ajv@^6.12.0, ajv@^6.12.2, ajv@^6.12.3, ajv@^6.12.4:
+ajv@^6.1.0, ajv@^6.10.0, ajv@^6.10.2, ajv@^6.12.0, ajv@^6.12.2, ajv@^6.12.3, ajv@^6.12.4, ajv@^6.12.5:
   version "6.12.6"
   resolved "https://npm.corp.kuaishou.com/ajv/-/ajv-6.12.6.tgz#baf5a62e802b07d977034586f8c3baf5adf26df4"
   integrity sha1-uvWmLoArB9l3A0WG+MO69a3ybfQ=
@@ -3335,6 +3335,21 @@ check-types@^8.0.3:
   resolved "https://npm.corp.kuaishou.com/check-types/-/check-types-8.0.3.tgz#3356cca19c889544f2d7a95ed49ce508a0ecf552"
   integrity sha1-M1bMoZyIlUTy16le1JzlCKDs9VI=
 
+"chokidar@>=3.0.0 <4.0.0", chokidar@^3.5.2:
+  version "3.5.3"
+  resolved "https://npm.corp.kuaishou.com/chokidar/-/chokidar-3.5.3.tgz#1cf37c8707b932bd1af1ae22c0432e2acd1903bd"
+  integrity sha512-Dr3sfKRP6oTcjf2JmUmFJfeVMvXBdegxB0iVQ5eb2V10uFJUCAS8OByZdVAyVb8xXNz3GjjTgj9kLWsZTqE6kw==
+  dependencies:
+    anymatch "~3.1.2"
+    braces "~3.0.2"
+    glob-parent "~5.1.2"
+    is-binary-path "~2.1.0"
+    is-glob "~4.0.1"
+    normalize-path "~3.0.0"
+    readdirp "~3.6.0"
+  optionalDependencies:
+    fsevents "~2.3.2"
+
 chokidar@^2.1.8:
   version "2.1.8"
   resolved "https://npm.corp.kuaishou.com/chokidar/-/chokidar-2.1.8.tgz#804b3a7b6a99358c3c5c61e71d8728f041cff917"
@@ -3358,21 +3373,6 @@ chokidar@^3.0.2, chokidar@^3.3.0, chokidar@^3.4.1:
   version "3.5.2"
   resolved "https://npm.corp.kuaishou.com/chokidar/-/chokidar-3.5.2.tgz#dba3976fcadb016f66fd365021d91600d01c1e75"
   integrity sha1-26OXb8rbAW9m/TZQIdkWANAcHnU=
-  dependencies:
-    anymatch "~3.1.2"
-    braces "~3.0.2"
-    glob-parent "~5.1.2"
-    is-binary-path "~2.1.0"
-    is-glob "~4.0.1"
-    normalize-path "~3.0.0"
-    readdirp "~3.6.0"
-  optionalDependencies:
-    fsevents "~2.3.2"
-
-chokidar@^3.5.2:
-  version "3.5.3"
-  resolved "https://npm.corp.kuaishou.com/chokidar/-/chokidar-3.5.3.tgz#1cf37c8707b932bd1af1ae22c0432e2acd1903bd"
-  integrity sha512-Dr3sfKRP6oTcjf2JmUmFJfeVMvXBdegxB0iVQ5eb2V10uFJUCAS8OByZdVAyVb8xXNz3GjjTgj9kLWsZTqE6kw==
   dependencies:
     anymatch "~3.1.2"
     braces "~3.0.2"
@@ -6263,6 +6263,11 @@ immediate@~3.0.5:
   resolved "https://npm.corp.kuaishou.com/immediate/-/immediate-3.0.6.tgz#9db1dbd0faf8de6fbe0f5dd5e56bb606280de69b"
   integrity sha1-nbHb0Pr43m++D13V5Wu2BigN5ps=
 
+immutable@^4.0.0:
+  version "4.0.0"
+  resolved "https://npm.corp.kuaishou.com/immutable/-/immutable-4.0.0.tgz#b86f78de6adef3608395efb269a91462797e2c23"
+  integrity sha1-uG943mre82CDle+yaakUYnl+LCM=
+
 import-cwd@^2.0.0:
   version "2.1.0"
   resolved "https://npm.corp.kuaishou.com/import-cwd/-/import-cwd-2.1.0.tgz#aa6cf36e722761285cb371ec6519f53e2435b0a9"
@@ -7083,6 +7088,11 @@ klaw@^1.0.0:
   optionalDependencies:
     graceful-fs "^4.1.9"
 
+klona@^2.0.4:
+  version "2.0.5"
+  resolved "https://npm.corp.kuaishou.com/klona/-/klona-2.0.5.tgz#d166574d90076395d9963aa7a928fabb8d76afbc"
+  integrity sha1-0WZXTZAHY5XZljqnqSj6u412r7w=
+
 latest-version@^5.1.0:
   version "5.1.0"
   resolved "https://npm.corp.kuaishou.com/latest-version/-/latest-version-5.1.0.tgz#119dfe908fe38d15dfa43ecd13fa12ec8832face"
@@ -7726,7 +7736,7 @@ negotiator@0.6.2:
   resolved "https://npm.corp.kuaishou.com/negotiator/-/negotiator-0.6.2.tgz#feacf7ccf525a77ae9634436a64883ffeca346fb"
   integrity sha1-/qz3zPUlp3rpY0Q2pkiD/+yjRvs=
 
-neo-async@^2.5.0, neo-async@^2.6.0, neo-async@^2.6.1:
+neo-async@^2.5.0, neo-async@^2.6.0, neo-async@^2.6.1, neo-async@^2.6.2:
   version "2.6.2"
   resolved "https://npm.corp.kuaishou.com/neo-async/-/neo-async-2.6.2.tgz#b4aafb93e3aeb2d8174ca53cf163ab7d7308305f"
   integrity sha1-tKr7k+OustgXTKU88WOrfXMIMF8=
@@ -9529,6 +9539,26 @@ sanitize-filename@^1.6.3:
   dependencies:
     truncate-utf8-bytes "^1.0.0"
 
+sass-loader@10.1.1:
+  version "10.1.1"
+  resolved "https://npm.corp.kuaishou.com/sass-loader/-/sass-loader-10.1.1.tgz#4ddd5a3d7638e7949065dd6e9c7c04037f7e663d"
+  integrity sha1-Td1aPXY455SQZd1unHwEA39+Zj0=
+  dependencies:
+    klona "^2.0.4"
+    loader-utils "^2.0.0"
+    neo-async "^2.6.2"
+    schema-utils "^3.0.0"
+    semver "^7.3.2"
+
+sass@^1.32.8:
+  version "1.49.7"
+  resolved "https://npm.corp.kuaishou.com/sass/-/sass-1.49.7.tgz#22a86a50552b9b11f71404dfad1b9ff44c6b0c49"
+  integrity sha512-13dml55EMIR2rS4d/RDHHP0sXMY3+30e1TKsyXaSz3iLWVoDWEoboY8WzJd5JMnxrRHffKO3wq2mpJ0jxRJiEQ==
+  dependencies:
+    chokidar ">=3.0.0 <4.0.0"
+    immutable "^4.0.0"
+    source-map-js ">=0.6.2 <2.0.0"
+
 sax@>=0.6.0, sax@^1.2.4, sax@~1.2.4:
   version "1.2.4"
   resolved "https://npm.corp.kuaishou.com/sax/-/sax-1.2.4.tgz#2816234e2378bddc4e5354fab5caa895df7100d9"
@@ -9559,6 +9589,15 @@ schema-utils@^2.0.0, schema-utils@^2.5.0, schema-utils@^2.6.5, schema-utils@^2.6
   dependencies:
     "@types/json-schema" "^7.0.5"
     ajv "^6.12.4"
+    ajv-keywords "^3.5.2"
+
+schema-utils@^3.0.0:
+  version "3.1.1"
+  resolved "https://npm.corp.kuaishou.com/schema-utils/-/schema-utils-3.1.1.tgz#bc74c4b6b6995c1d88f76a8b77bea7219e0c8281"
+  integrity sha1-vHTEtraZXB2I92qLd76nIZ4MgoE=
+  dependencies:
+    "@types/json-schema" "^7.0.8"
+    ajv "^6.12.5"
     ajv-keywords "^3.5.2"
 
 select-hose@^2.0.0:
@@ -9861,6 +9900,11 @@ source-list-map@^2.0.0:
   version "2.0.1"
   resolved "https://npm.corp.kuaishou.com/source-list-map/-/source-list-map-2.0.1.tgz#3993bd873bfc48479cca9ea3a547835c7c154b34"
   integrity sha1-OZO9hzv8SEecyp6jpUeDXHwVSzQ=
+
+"source-map-js@>=0.6.2 <2.0.0":
+  version "1.0.2"
+  resolved "https://npm.corp.kuaishou.com/source-map-js/-/source-map-js-1.0.2.tgz#adbc361d9c62df380125e7f161f71c826f1e490c"
+  integrity sha512-R0XvVJ9WusLiqTCEiGCmICCMplcCkIwwR11mOSD9CR5u+IXYdiseeEuXCVAjS54zqwkLcPNnmU4OeJ6tUrWhDw==
 
 source-map-js@^1.0.1:
   version "1.0.1"
